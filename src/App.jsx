@@ -1,7 +1,12 @@
 import React from 'react';
+import Home from './pages/Home';
 
-function App() {
-  return <h1>oi</h1>;
-}
+import GlobalStyle from './styles/global';
 
+const App = () => (
+<>
+  <Home />
+  <GlobalStyle />
+</>
+);
 export default App;
